@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-app.use(express.static('./dist/fizjo-progress'));
+app.use(express.static('./dist/wooko'));
 
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/dist/wooko/index.html'));
