@@ -180,13 +180,7 @@ NOTE:
           $itemElement = '.grid-item',
           $filters = $('.isotope-filters');      
         if ($isotope.exists()) {
-            $isotope.isotope({
-            resizable: true,
-            itemSelector: $itemElement,
-              masonry: {
-                gutterWidth: 10
-              }
-            });     
+          ;     
        $filters.on( 'click', 'button', function() {
          var $val = $(this).attr('data-filter');
              $isotope.isotope({ filter: $val });       

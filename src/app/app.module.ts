@@ -10,7 +10,8 @@ import { MenuComponent } from './layout/menu/menu.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { ContactComponent } from './site/contact/contact.component';
 import { GalleryComponent } from './site/gallery/gallery.component';
-
+import { NgxMasonryModule } from 'ngx-masonry';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,8 @@ import { GalleryComponent } from './site/gallery/gallery.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    NgxMasonryModule,
     HttpClientModule,
     AppRoutingModule
   ],

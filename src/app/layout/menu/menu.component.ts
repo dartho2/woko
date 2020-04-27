@@ -42,7 +42,7 @@ export class MenuComponent implements OnInit {
     this.loadScript('assets/revolution/js/extensions/revolution.extension.video.min.js');
     this.loadScript('assets/revolution/js/revolution-custom.js');
     this.loadScript('assets/js/popup/jquery.magnific-popup.js');
-    this.loadScript('assets/js/isotope/isotope.pkgd.min.js');
+    // this.loadScript('assets/js/isotope/isotope.pkgd.min.js');
     this.loadScript('assets/js/custom.js');
   }
 
