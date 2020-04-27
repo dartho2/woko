@@ -9,10 +9,26 @@ export class MenuDishComponent implements OnInit {
 
 
   menu: any[] = [{ 
+    category: "Polecane przez Szefa Kuchni",
+    desc: "", 
+    id_class: "polecane", 
+    img: "",
+    dish: [{
+        description: "z makaronem ryżowym - cebula, kiełki mun, czosnek, grzyby mun, sos rybny", 
+        number: 1,
+        name: "Pad Thai z kurczakiem", 
+        price: [
+          { size: "L", price: "10"},
+          { size: "XL", price: "26"}
+         ], 
+        img: "assets/images/dish/zupa_rosol_z_kurczakiem.png" 
+      }]
+    },
+    { 
                     category: "Zupy",
                     desc: "", 
                     id_class: "zupy", 
-                    img: "",
+                    img: "assets/images/bg/krewetki_w_ciescie.jpg",
                     dish: [{
                         description: "serwowane z makaronem sojowym i warzywami 480ml", 
                         number: 1,

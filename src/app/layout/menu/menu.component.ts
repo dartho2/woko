@@ -19,7 +19,6 @@ export class MenuComponent implements OnInit {
   }
   ngOnInit() {
     this.loadScript('assets/js/jquery.min.js');
-    this.loadScript('assets/js/jquery.min.js');
     this.loadScript('assets/js/bootstrap.min.js');
     this.loadScript('assets/js/mega-menu/mega_menu.js');
     this.loadScript('assets/js/owl.carousel.min.js');
@@ -42,6 +41,8 @@ export class MenuComponent implements OnInit {
     this.loadScript('assets/revolution/js/extensions/revolution.extension.slideanims.min.js');
     this.loadScript('assets/revolution/js/extensions/revolution.extension.video.min.js');
     this.loadScript('assets/revolution/js/revolution-custom.js');
+    this.loadScript('assets/js/popup/jquery.magnific-popup.js');
+    this.loadScript('assets/js/isotope/isotope.pkgd.min.js');
     this.loadScript('assets/js/custom.js');
   }
 
